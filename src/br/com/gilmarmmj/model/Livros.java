@@ -12,6 +12,7 @@ public class Livros {
    private String sinopse;
    private String observacao;
    private String status;
+   private String precoCusto;
 
     public Livros() {
     }
@@ -78,6 +79,14 @@ public class Livros {
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public String getPrecoCusto() {
+        return precoCusto;
+    }
+
+    public void setPrecoCusto(String precoCusto) {
+        this.precoCusto = precoCusto;
     }
 
     @Override
