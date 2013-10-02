@@ -2,12 +2,13 @@
 package br.com.gilmarmmj.model;
 
 import java.util.Date;
+import java.util.List;
 
 public class Emprestimos {
     
     private int codigo;
     private Cliente cliente;
-    private Livros livros;
+    private List<Livros> livros;
     private Date dataEmprestimo;
     private Date dataDevolucao;
     private double multa;
@@ -32,14 +33,14 @@ public class Emprestimos {
         this.cliente = cliente;
     }
 
-    public Livros getLivros() {
+    public List<Livros> getLivros() {
         return livros;
     }
 
-    public void setLivros(Livros livros) {
+    public void setLivros(List<Livros> livros) {
         this.livros = livros;
     }
-
+    
     public Date getDataEmprestimo() {
         return dataEmprestimo;
     }
