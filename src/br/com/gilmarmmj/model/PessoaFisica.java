@@ -3,7 +3,7 @@ package br.com.gilmarmmj.model;
 
 import java.util.Date;
 
-public class PessoaFisica {
+public abstract class PessoaFisica {
    
     private int codigo;
     private String nome;
